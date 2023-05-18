@@ -97,7 +97,7 @@ class DailyTaskManager {
         int id = scanner.nextInt();
         scanner.nextLine();
 
-        if (taskManager.removeTaskById(id)) {
+        if (taskManager.removeTaskById()) {
             System.out.println("Task removed successfully.");
         } else {
             System.out.println("Task not found.");
