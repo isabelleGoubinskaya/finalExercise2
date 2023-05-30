@@ -26,14 +26,4 @@ class TaskManager {
         }
         return tasksForDate;
     }
-
-    public int generateTaskId() {
-        int taskWashingGenerate = 1;
-        return taskWashingGenerate;
-    }
-
-    public boolean removeTaskById() {
-        boolean id = true;
-        return id;
-    }
 }
