@@ -1,7 +1,6 @@
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 class TaskManager {
     private List<Task> tasks;
@@ -26,16 +25,5 @@ class TaskManager {
             }
         }
         return tasksForDate;
-    }
-
-    public void removeTask() {
-    }
-
-    public int generateTaskId() {
-        return 0;
-    }
-
-    public boolean removeTaskById(int id) {
-        return false;
     }
 }
